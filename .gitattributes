@@ -1,0 +1,7 @@
+# Force Java detection for specific directories
+src/main/java/**/*.java linguist-language=Java
+src/test/java/**/*.java linguist-language=Java
+
+# Ensure that Java files are counted, not ignored
+*.java linguist-vendored=false
+*.java linguist-generated=false
